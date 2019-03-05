@@ -62,7 +62,7 @@ public class Main {
     private static void outPutChangeElementsArray(GenericType genObject, Scanner scanner){
         int index1 = -1;
         int index2 = -1;
-        System.out.println("Напиши индексы (1..размер массива) элелментов, которые требуется поменять местами ( размер массива: "+genObject.getArray().length+")");
+        System.out.println("Напиши индексы (1..размер массива) элелментов, которые требуется поменять местами (размер массива: "+genObject.getArray().length+")");
         System.out.println("Индекс1:");
         do {
             index1 = scanner.nextInt();
